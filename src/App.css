@@ -1,0 +1,47 @@
+
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.movies {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 8px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+img {
+    border-radius: 0.8rem;
+}
+
+
+#error-message {
+    text-align: center;
+    color: red;
+    font-weight:500;
+}
